@@ -1,0 +1,217 @@
+:root {
+    --main-bg-color:#2874f0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    background-color: var(--main-bg-color);
+    color: red;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0 19px;
+}
+logo img{
+    width: 88px;
+    padding: 0 25px;
+    
+
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-top: 5px;
+    padding:0 23px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav ul li a:hover{
+  font-weight: bold;
+  background-color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+}
+.class, .about,.insta,.contact,.Home{
+background-color: var(--main-bg-color);
+color: azure;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input {
+    width: 30vw;
+    height: 23px;
+    border-radius: 6px;
+    padding: 0 12px ;
+    margin: 0  52px;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 10vh);
+}
+.slider{
+    margin: 22px 10px;
+    overflow: hidden;
+}
+.welcome{
+    height: 73vh;
+    padding-top: 167px;
+    display: flex;
+    justify-content: center;
+    /* overflow: scroll; */
+}
+.welcomeText{
+    width: 20vw;
+    height: 15vh;
+    padding-left: 89px;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.welcomeImage1{
+    width: 45vw;
+    height: 45vh;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 12px 15px;
+    padding-bottom: 12px;
+    padding-top: 15;
+
+}
+.welcomeImage2{
+    width: 25vw;
+    height: 27vh;
+    padding-bottom: 163px;
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 12px 15px;
+    padding-top: 55px;
+    padding-left: 125px;
+
+}
+.ggg{
+    font-family: system-ui;
+    font-size: xx-large;
+    text-align: center;
+}
+.card{
+    max-width: 90vw;
+    margin: auto;
+    
+}
+.cards { 
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.card-item {
+    width: 13vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+    font-weight: 900;
+}
+.card a{
+    text-decoration:none;
+    text-shadow: black;
+}
+.card a:hover{
+    font-weight: bold;
+    background-color: rgb(17, 1, 1);
+    color: white;
+  }
+.lines p{
+    margin: 0 3px;
+    text-align: center;
+}
+section{
+    height: 84vh;
+    background-color: rgb(125, 71, 71);
+    color: white;
+}
+.about{
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+.about .heading{
+    display: flex;
+    padding-top: 3px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(125, 71, 71);
+    color: white;
+}
+.about .content{
+    justify-content: center;
+    padding-left: 12px;
+    align-items: center;
+    background-color: rgb(125, 71, 71);
+    color: white;
+}
+.founder .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.founder .text .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.founder .text .social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_media a{
+    color: rgb(1, 10, 18);
+    text-decoration: none;
+
+}
+.social_media a:hover{
+    color: black;
+    font-weight: bolder;
+
+}
+.founder .text .email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    color: white;
+    background-color: var(--main-bg-color);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

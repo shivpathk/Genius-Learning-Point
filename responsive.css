@@ -1,0 +1,75 @@
+@media screen and (max-width:1000px){
+
+    .welcome{
+        flex-direction: column;
+    }
+    .welcomeImage1{
+        
+        width: 292px;
+        justify-content: center;
+        margin: 12px 0;
+        padding-left: -12px;
+        
+    }
+    .welcomeImage2{
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 89px;
+        padding-left: 39px;
+    }
+    .welcomeText{
+        width: 222px;
+        padding-bottom: 39px;
+        padding-left: 0%;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    main{
+        padding-left: 102px;
+    }
+    .search{
+        padding-top: 12px;
+        justify-content: center;
+    }
+    .search input{
+        margin: 20px 16px ;
+    }
+    nav ul{
+        height: 10px;
+    }
+    .slider {
+        height: 23vh;
+        padding-left: -122px;
+        display: none;
+    }
+    .cards{
+        padding-top: 2px;
+        padding-left: 12px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card{
+        padding-top: 2px;
+        padding-left: 2px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-item{
+        padding-top: 2px;
+   width: 300px;
+        justify-content: center;
+    }
+    .card-item .lines{
+        font-weight: 1000;
+        font-size: x-large;
+    }
+}
